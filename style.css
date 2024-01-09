@@ -8,7 +8,6 @@
 
 body{
     background-color: hsl(var(--primary-cream));
-    max-height: 100vh;
     font-family: "Montserrat", "sans-serif";
 }
 
@@ -88,7 +87,7 @@ body{
     border-radius: .5rem;
 }
     
-@media(min-width:376px){
+@media(min-width:800px){
     body {
         display: grid;
         place-content: center; 
